@@ -181,7 +181,7 @@ text-align: center;
 }
 .feature-card{
     max-width: 500px;
-    max-height: 130px;
+    max-height: 150px;
     background-color: #FFFFFF;
    margin-bottom: 15px;
     border: none;
@@ -205,6 +205,34 @@ text-align: center;
     max-width: 460px;
     max-height: 700px;
 }
+#badge{
+    padding: 55px 42px;
+font-size: 1rem;
+font-weight: 600;
+}
+#year{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.img-sec{
+    position: relative;
+}
+.btn-primary{
+    border: none;
+    border-radius: 8px;
+        /* height: 8vh; */
+        background-color: #FF900E;
+        color: #FFFFFF;
+        /* padding: 15px 20px; */
+        /* font-size: 1.20rem; */
+        text-align: center;
+        max-width: 222px;
+        max-height: 160px;
+        margin-top: 5px;
+    position: absolute;
+    margin-left: -500px;
+    top: 700px;
+    }
 
 @media screen and (max-width: 576px) {
     .navbar, .nav-links{
@@ -278,6 +306,26 @@ text-align: center;
     justify-content: center;
     align-items: center;
 }
+.btn-primary{
+    border: none;
+    border-radius: 8px;
+        /* height: 8vh; */
+        background-color: #FF900E;
+        color: #FFFFFF;
+        /* padding: 15px 20px; */
+        /* font-size: 1.20rem; */
+        text-align: center;
+        max-width: 222px;
+        max-height: 160px;
+        margin-top: 5px;
+    position: absolute;
+    margin-left: -400px;
+    top: 490px;
+    }
+    .features img{
+        max-width: 400px;
+        max-height: 700px;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
     .navbar, .nav-item, .teams{
@@ -313,6 +361,30 @@ text-align: center;
             justify-content: center;
             align-items: center;
         }
+        .sponsor-companies{
+            display: flex;
+           flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+        .btn-primary{
+            border: none;
+            border-radius: 8px;
+                /* height: 8vh; */
+                background-color: #FF900E;
+                color: #FFFFFF;
+                /* padding: 15px 20px; */
+                /* font-size: 1.20rem; */
+                text-align: center;
+                max-width: 222px;
+                max-height: 160px;
+                margin-top: 5px;
+            position: absolute;
+          margin-left: -480px;
+            top: 490px;
+            }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
    
@@ -340,6 +412,30 @@ text-align: center;
             max-height: 700px;
             margin-top: 300px;
         }
+        .sponsor-companies{
+            display: flex;
+           flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+        .btn-primary{
+            border: none;
+            border-radius: 8px;
+                /* height: 8vh; */
+                background-color: #FF900E;
+                color: #FFFFFF;
+                /* padding: 15px 20px; */
+                /* font-size: 1.20rem; */
+                text-align: center;
+                max-width: 222px;
+                max-height: 160px;
+                margin-top: 5px;
+            position: absolute;
+            margin-left: -480px;
+            top: 800px;
+            }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
    
@@ -357,6 +453,22 @@ text-align: center;
             max-height: 700px;
             margin-top: 250px;
         }
+        .btn-primary{
+            border: none;
+            border-radius: 8px;
+                /* height: 8vh; */
+                background-color: #FF900E;
+                color: #FFFFFF;
+                /* padding: 15px 20px; */
+                /* font-size: 1.20rem; */
+                text-align: center;
+                max-width: 222px;
+                max-height: 160px;
+                margin-top: 5px;
+            position: absolute;
+           margin-left: -480px;
+            top: 800px;
+            }
 }
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
    
@@ -372,6 +484,39 @@ text-align: center;
         .features img{
             max-width: 460px;
             max-height: 700px;
-            margin-top: 250px;
+            margin-top: 150px;
         }
+}
+@media screen and (min-width: 1400px) and (max-width: 1925px) {
+   
+    .btn{
+        border: none;
+        border-radius: 8px;
+            height: 8vh;
+            background-color: #FF900E;
+            color: #FFFFFF;
+            padding: 8px 20px;
+            font-size: 1.20rem;
+        }
+        .features img{
+            max-width: 460px;
+            max-height: 700px;
+            margin-top: 150px;
+        }
+        .btn-primary{
+            border: none;
+            border-radius: 8px;
+                /* height: 8vh; */
+                background-color: #FF900E;
+                color: #FFFFFF;
+                /* padding: 15px 20px; */
+                /* font-size: 1.20rem; */
+                text-align: center;
+                max-width: 222px;
+                max-height: 160px;
+                margin-top: 5px;
+            position: absolute;
+            margin-left: -500px;
+            top: 700px;
+            }
 }
