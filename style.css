@@ -325,6 +325,12 @@ font-weight: 600;
         /* max-height: 700px; */
         width: 100%;
     }
+    .banner .banner-content h1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 3rem;
+        margin-bottom: 32px;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
     .navbar, .nav-item, .teams{
