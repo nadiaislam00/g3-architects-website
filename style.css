@@ -271,14 +271,14 @@ font-weight: 600;
             }
             .fact-card{
                 border: 1px solid #FF900E;
-            max-width: 260px;
+            width: 460px;
             height: 200px;
             border-radius: 8px;
             display: flex;
             justify-content: center;
             align-items: center;
             text-align: center;
-            padding: 15px;
+            padding: 25px;
             }
             .section-title{
                 font-size: 2rem;
@@ -290,7 +290,7 @@ font-weight: 600;
                 margin-bottom: 65px;
             }
             .email{
-                max-width: 260px;
+                /* max-width: 660px; */
 }
 .sponsor-companies{
     display: flex;
