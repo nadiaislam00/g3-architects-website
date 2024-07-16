@@ -289,9 +289,7 @@ font-weight: 600;
                 max-height: 33.8px;
                 margin-bottom: 65px;
             }
-            .email{
-                /* max-width: 660px; */
-}
+
 .sponsor-companies{
     display: flex;
    flex-direction: column;
@@ -323,8 +321,9 @@ font-weight: 600;
     top: 490px;
     }
     .features img{
-        max-width: 400px;
-        max-height: 700px;
+        /* max-width: 400px; */
+        /* max-height: 700px; */
+        width: 100%;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
